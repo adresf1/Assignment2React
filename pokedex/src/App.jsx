@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Pokedex from "./Pokedex";
 import PokemonDetail from "./PokemonDetail";
-import "./App.css"; 
 
 function App() {
   return (
     <Router>
       <nav>
+        <p>Press on home button if you cannot see the pokemons</p>
         <Link id="home" to="/">Home</Link> 
         <p><b>click on the pokemons to see more details </b></p>
       </nav>
