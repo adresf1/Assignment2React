@@ -24,7 +24,7 @@ function Pokedex() {
 
   return (
     <div>
-      <h1>Pokédex</h1>
+      <h1>Pokedex</h1>
       <div id="pokemons">
         {pokemonList.map((pokemon) => (
           <div id="list" onClick={() => navigate(`/pokemon/${pokemon.name}`)} key={pokemon.name}>
