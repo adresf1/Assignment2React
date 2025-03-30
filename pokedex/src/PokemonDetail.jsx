@@ -20,6 +20,7 @@ function PokemonDetail() {
       <img src={pokemon.sprites.front_default} alt={pokemon.name} />
       <p>Type: {pokemon.types.map((t) => t.type.name).join(", ")}</p>
       <p>Height: {pokemon.height}</p>
+    
       <p>Weight: {pokemon.weight}</p>
       <button onClick={() => navigate(-1)}>Back</button>
     </div>
