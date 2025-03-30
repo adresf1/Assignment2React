@@ -1,0 +1,15 @@
+#pokemons{
+  display: flex;
+  flex-wrap: wrap;
+}
+#list{
+  margin: 10px;
+  border: 10px;
+  background-color: rgb(145, 171, 128);
+  border-radius: 10px;
+}
+#name{
+  bottom: 10%;
+  left: 50%;
+  right: 50%;
+}
