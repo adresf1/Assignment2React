@@ -27,7 +27,7 @@ function Pokedex() {
       <h1>Pokédex</h1>
       <div id="pokemons">
         {pokemonList.map((pokemon) => (
-          <div id="list" onClick={() => navigate(`/pokemon/${pokemon.name}`)} key={pokemon.name} style={{ margin: 10, cursor: "pointer" }}>
+          <div id="list" onClick={() => navigate(`/pokemon/${pokemon.name}`)} key={pokemon.name}>
             <img src={pokemon.sprite} alt={pokemon.name} />
             <p><b>{pokemon.name}</b></p>
           </div>
